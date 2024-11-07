@@ -1,0 +1,67 @@
+/* General Styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: repeating-linear-gradient(to right, #fed5d2, white,#fed5d2,white, #fed5d2, white,#fed5d2,white,#fed5d2, white,#fed5d2,white, #fed5d2, white,#fed5d2,white,#fed5d2, white,#fed5d2,white, #fed5d2, white,#fed5d2,white,#fed5d2, white,#fed5d2,white, #fed5d2, white,#fed5d2,white);
+  /* background-image: repeating-linear-gradient(to right, #fed5d2, white )  ; */
+  /* margin: 0;
+  padding: 0; */
+
+  /* overflow-x: hidden; */
+}
+
+/* Header */
+header {
+  /* background-image: repeating-linear-gradient(to right, #fed5d2, white,#fed5d2,white, #fed5d2, white,#fed5d2,white,#fed5d2, white,#fed5d2,white, #fed5d2, white,#fed5d2,white,#fed5d2, white,#fed5d2,white, #fed5d2, white,#fed5d2,white,#fed5d2, white,#fed5d2,white, #fed5d2, white,#fed5d2,white); */
+  /* padding: 80px 0; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+header button {
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+
+/* Services Section */
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+  font-weight: 700;
+}
+
+.Services .row > div {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.Services .row > div:hover {
+  transform: translateY(-5px);
+}
